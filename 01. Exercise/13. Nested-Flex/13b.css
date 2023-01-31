@@ -1,0 +1,28 @@
+.roww {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+.col11 {
+    display: flex;
+    width: 100px;
+    background-color: aquamarine;
+}
+.col22 {
+    width: 200px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+}
+.content1 {
+}
+.content2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    background-color: black;
+    color: white;
+    margin: 0;
+}

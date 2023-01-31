@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Grid is Mine</title>
+</head>
+<body>
+
+  <div style="
+      display: grid; 
+      grid-template-columns: 200px 75px;
+      margin-top: 40px;
+    ">
+    <div style="background-color: grey;">
+      200px
+      <p>hello</p>
+    </div>
+    <div style="background-color: lightpink;">
+      75px
+    </div>
+  </div>
+
+
+  <div style="
+    display: grid; 
+    grid-template-columns: 
+    50px 1fr 75px;
+    margin-top: 40px;
+  ">
+    <div style="background-color: grey;"> 50px </div>
+    <div style="background-color: lightpink;"> 1fr</div>
+    <div style="background-color: grey;">75px</div>
+  </div>
+
+  <div style="
+  display: grid; 
+  grid-template-columns: 
+  100px 100px 200px;
+  margin-top: 40px;
+">
+  <div style="background-color: grey;"> 50px </div>
+  <div style="background-color: lightpink;"> 1fr</div>
+  <div style="background-color: grey;">75px</div>
+</div>
+
+
+  <div style="
+    margin-top: 40px;
+    display: grid; 
+    row-gap: 20px; 
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  ">
+    <div style="background-color: grey; height: 150px;"></div>
+    <div style="background-color: lightpink;"></div>
+    <div style="background-color: grey;"></div>
+    <div style="background-color: lightpink;"></div>
+    <div style="background-color: grey; height: 150px;"></div>
+    <div style="background-color: lightpink;"></div>
+  </div>
+
+  
+</body>
+</html>

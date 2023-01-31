@@ -1,0 +1,39 @@
+.link-div {
+    height: 100px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: solid 2px rgba(193, 193, 193, 0.5);
+}
+.first-half-link-div {
+    background-color: rgb(193, 193, 193);
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 100px;
+    height: 102px;
+}
+.second-half-link-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    border: 50px;
+}
+.website-link {
+    margin: 0;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;                
+    line-height: 20px;
+}
+.about {
+    font-weight: bold;
+    margin: 0;
+    line-height: 20px;
+}
